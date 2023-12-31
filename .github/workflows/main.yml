@@ -2,7 +2,7 @@ name: HProfile Actions
 on: workflow_dispatch
 jobs:
   Testing:
-    runs-on: debian-latest
+    runs-on: bursa
     steps:
       - name: Testing workflow
         run: echo "Workflow works!"
